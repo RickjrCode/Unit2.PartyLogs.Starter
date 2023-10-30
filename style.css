@@ -1,5 +1,48 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-color: bisque;
+}
+
+.logo {
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+  font-style: oblique;
+  background-image: url(party.jpg);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: cover;
+  background-color: #074f57;
+  background-blend-mode: multiply;
+}
+
+#party-container {
+  font-size: large;
+  font-style: italic;
+}
+
+.details-button {
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  padding: 8px 22px;
+  background: black;
+  transition: all 0.2s ease;
+}
+.details-button:active {
+  transform: scale(0.96);
+}
+
+.delete-button {
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 8px 22px;
+  background: salmon;
+  transition: all 0.2s ease;
+}
+
+.delete-button:active {
+  transform: scale(0.96);
 }
